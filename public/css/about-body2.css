@@ -1,0 +1,22 @@
+#body2{
+  border: 1px purple solid;
+  background-color: Gainsboro;
+  height: 300px;
+}
+
+#body2 ul li {
+  border: 1px red solid;
+  width: 355px;
+}
+
+#body2 ul li .game {
+  float: left;
+}
+
+#body2 ul li .pg {
+  float: left;
+}
+
+#body2 ul li .tdd {
+  float: right;
+}

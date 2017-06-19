@@ -1,0 +1,59 @@
+/*html {
+  background-color: black;
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+ul  {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+}
+/*max size 2450px*/
+
+#container {
+  border: 1px red solid;
+  width: 710px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*header has been moved to header.css*/
+  /*#header {
+    border: 1px green solid;
+    background-color: Azure;
+    height: auto;
+  }*/
+
+
+/*body has been moved to about-body.css*/
+  /*#body {
+    border: 1px blue solid;
+    background-color: Aquamarine;
+    height: 300px;
+  }*/
+
+
+/*body2 has been moved to about-body2.css*/
+  /*#body2{
+    border: 1px purple solid;
+    background-color: Gainsboro;
+    height: 300px;
+  }*/
+
+
+/*footer has been moved to footer.css*/
+  /*#footer {
+    border: 1px orange solid;
+    background-color: DeepSkyBlue;
+    height: auto;
+  }*/

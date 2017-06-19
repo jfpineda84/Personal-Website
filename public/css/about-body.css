@@ -1,0 +1,20 @@
+#body {
+  border: 1px blue solid;
+  background-color: Aquamarine;
+  height: 300px;
+}
+
+#body .title {
+  border: 1px red solid;
+  text-align: center;
+}
+
+#body .bio-text {
+  border: 1px yellow solid;
+  float: left;
+}
+
+#body .bio-pic {
+  border: 1px blue solid;
+
+}
