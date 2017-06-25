@@ -1,0 +1,93 @@
+/*font-family: 'Pacifico', cursive;
+font-family: 'Open Sans', sans-serif;*/
+  /*note: 400 regular / 700 bold / 800 extra bold*/
+
+
+a, li, h3, p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: bold 700;
+}
+li {
+  list-style-type: none;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+.logo p  {
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+  margin-left: 69px;
+}
+.nav-header a {
+  top: 178%;
+  position: relative;
+  right: 7%;
+  margin-right: 18px;
+}
+
+/* ==== //// ======== header ======== /// ==== */
+
+header, .logo, .nav-header {
+  border: 1px solid red;
+}
+.head-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-header ul {
+  display: flex;
+}
+
+
+
+/* ==== //// ====== article body-block ===== /// ==== */
+
+article {
+  border: 1px solid red;
+}
+body-block1 {
+  border: 1px solid blue;
+}
+body-block2 {
+  border: 1px solid green;
+}
+h3 {
+  text-align: center;
+}
+
+
+
+/* ==== //// ====== article body-block 1 & 2 ===== /// ==== */
+
+.body-block1 , .items {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ==== //// ======== footer ======== /// ==== */
+
+footer , .logo, .nav-footer , .contact-info , .reference {
+  border: 1px solid red;
+}
+.foot-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.reference ul {
+  display: flex;
+  margin: 0;
+}
+.reference p {
+  font-size: 8px;
+}
+.linked-in {
+  font-size:27px;
+  color:#4C94FF;
+  padding: 1px;
+}
+.git-hub{
+  font-size:27px;
+  padding: 1px;
+}

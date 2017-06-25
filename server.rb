@@ -1,8 +1,6 @@
-require 'sinatra'
-
+require "sinatra"
 
 get "/" do
- # File.expand_path('public/about.html', setiings.public_folder)
   File.open "public/about.html"
 end
 

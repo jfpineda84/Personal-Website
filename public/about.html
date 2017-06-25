@@ -2,120 +2,128 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>About Page</title>
-    <link rel="stylesheet" href="/css/about.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/about-body.css">
-    <link rel="stylesheet" href="/css/about-body2.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Juan Fernando Pineda">
-    <!-- <meta name="viewport" content="webkit-background-size"> -->
+    <title>About</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Pacifico" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
-
     <div id="container">
 
-      <div id="header">
+      <header>
 
-        <div class="logo">
-          <img src="#" alt="logo">
-        </div>
-        <!-- end class=logo -->
+        <div class="head-wrapper">
 
-        <div class="nav">
-          <ul>
-            <li><a href="/portfolio">PORTFOLIO</a></li>
-            <li><a href="/about">ABOUT</a></li>
-          </ul>
-        </div>
-        <!-- end class=nav -->
+          <div class="logo">
+            <p>JuanFernandoPineda</p>
+          </div>
+          <!-- end class=logo -->
 
-      </div>
-      <!-- end id=header -->
-
-      <div id="body">
-
-        <div class="title">
-          <p>ABOUT</p>
-        </div>
-
-        <div class="bio-text">
-          <p>Hello, my name is Juan Fernando Pineda. I am a wincoder @ Wincode Miami.</p>
-        </div>
-        <!-- end bio -->
-
-        <div class="bio-pic">
-          <img src="#" alt="Picture">
-        </div>
-        <!-- end bio pic -->
-
-      </div>
-      <!-- end id=body -->
-
-      <div id="body2">
-        <ul>
-          <li class="game"><a href="#">Game</a></li>
-          <li class="pg"><a href="#">Web Page Template</a></li>
-          <li class="tdd"><a href="#">TDD - URL Parcer</a></li>
-          <li class="TBD"><a href="#">???</a></li>
-        </ul>
-      </div>
-      <!-- end id=body2 -->
-
-      <div id="footer">
-
-        <div class="logo">
-          <img src="#" alt="logo">
-        </div>
-        <!-- end class=logo -->
-
-          <div id="footer-info">
-
-          <div class="nav">
+          <div class="nav-header">
             <ul>
-              <li><a href="/portfolio">PORTFOLIO</a></li>
-              <li><a href="/about">ABOUT</a></li>
-              <li><a href="/contact">CONTACT</a></li>
+              <li><a href="#">PORTFOLIO</a></li>
+              <li><a href="about.html">ABOUT</a></li>
             </ul>
           </div>
           <!-- end class=nav -->
+        </div>
+        <!-- end head-wraper -->
+      </header>
 
-          <div class="contact">
-            <ul>
-              <li>Juan F. Pineda</li>
-              <li>(754) 273-6608</li>
-              <li><a href="#">jfpineda84@gmail.com</a></li>
-            </ul>
+      <article>
+        <div class="body-wrapper">
+
+            <h3>ABOUT</h3>
+
+          <div class="body-block1">
+
+            <div class="bio-text">
+              <p>Hello, my name is Juan Fernando Pineda. I am a wincoder @ Wincode Miami.</p>
+            </div>
+            <!-- end bio-text -->
+
+            <div class="bio-pic">
+              <img src="#" alt="Picture">
+            </div>
+            <!-- end bio pic -->
+
           </div>
-          <!-- end class=contact -->
+          <!-- end body-bock1 -->
 
-          <div class="ref">
-            <div class="ref-logo">
+          <div class="body-block2">
+
+            <h3>REFERENCE</h3>
+
+            <div class="items">
               <ul>
-                <li><a href="#">linkedin</a></li>
-                <li> <a href="#">Github</a></li>
-                <li><a href="#">???</a></li>
+                <li class="box1"><a href="#">Game</a></li>
+                <li class="box1"><a href="#">Web Page Template</a></li>
+                <li class="box2"><a href="#">TDD - URL Parcer</a></li>
+                <li class="box2"><a href="#">???</a></li>
               </ul>
+            </div>
+            <!-- end id=body2 -->
+          </div>
+          <!-- end body-bock1 -->
+
+        </div>
+        <!-- end body-wrapper -->
+
+      </article>
+      <!-- end article -->
+
+      <footer>
+
+
+        <div class="foot-wrapper">
+
+          <div class="logo">
+            <p>JuanFernandoPineda</p>
+          </div>
+          <!-- end class=logo -->
+
+            <div class="nav-footer">
+              <ul>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </div>
+            <!-- end class=nav -->
+
+            <div class="contact-info">
+              <ul>
+                <li>Juan F. Pineda</li>
+                <li>(754) 273-6608</li>
+                <li><a href="#">jfpineda84@gmail.com</a></li>
+              </ul>
+            </div>
+            <!-- end class=contact -->
+
+
+            <div class="reference">
+              <ul>
+                <li class="linked-in"><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+                <li class="git-hub"><i class="fa fa-github-square" aria-hidden="true"></i></li>
+              </ul>
+              <p>The portfolio of Juan Fernando Pineda</p>
+              <p class="copy-right">&#169; 2017 Juan Fernando Pineda</p>
             </div>
             <!-- end class=ref-ogo -->
 
-            <div class="ref-txt">
-              <p>The portfolio of Juan Fernando Pineda</p>
-                <p>&#169; Juan Fernando Pineda</p>
-            </div>
-            <!-- end class=ref-txt -->
-
           </div>
-          <!-- end class=ref -->
+          <!-- end foot-reference -->
 
-      </div>
-      <!-- end id=footer-info -->
+        </div>
+        <!-- end foot-wrapper -->
 
-      </div>
-      <!-- end id=footer -->
+      </footer>
+      <!-- end footer -->
 
     </div>
-    <!-- end id=container -->
-
+    <!-- end id container -->
   </body>
 </html>
